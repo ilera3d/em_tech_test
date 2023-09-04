@@ -14,7 +14,7 @@ final class Version20230903181138 extends AbstractMigration
 {
     public function getDescription(): string
     {
-        return '';
+        return 'Extending customer order to include extra fields for delivery options';
     }
 
     public function up(Schema $schema): void
